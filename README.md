@@ -134,7 +134,7 @@ The paper is not published. For further reading regarding Continual Knowledge Gr
 - Daruna, A., Gupta, M., Sridharan, M., Chernova, S.: Continual learning of knowl-
 edge graph embeddings. IEEE Robotics and Automation Letters 6(2), 1128–1135 (2021).
 https://doi.org/10.1109/LRA.2021.3056071
-- asgupta, S.S., Ray, S.N., Talukdar, P.: HyTE: Hyperplane-based temporally aware knowl-
+- Dasgupta, S.S., Ray, S.N., Talukdar, P.: HyTE: Hyperplane-based temporally aware knowl-
 edge graph embedding. In: Riloff, E., Chiang, D., Hockenmaier, J., Tsujii, J. (eds.) Proceed-
 ings of the 2018 Conference on Empirical Methods in Natural Language Processing. pp.
 2001–2011. Association for Computational Linguistics, Brussels, Belgium (Oct-Nov 2018).
