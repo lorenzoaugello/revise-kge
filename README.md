@@ -113,12 +113,19 @@ data/README.md                    dataset provenance and stream-generation notes
 results/                           generated checkpoints, raw runs, and summaries (not tracked)
 ```
 
-We note the following limitations, which are expanded in Section 9 of the REVISE paper.
+## Limitations
 
-## Scope and limitations
+The following is a summary of the main limitations of our work, as stated in Section 9 of the paper: 
 
-The evaluation uses synthetic update streams derived from static KGE benchmarks, not naturally occurring temporal change logs. Substitutions are supplied, synthetic, and object-side only; entity deletion does not shrink the candidate entity universe. The experiments cover three embedding models. The retraining oracle is a reference for behavior and compute, and can differ because of initialization and stochastic optimization. 
-Indeed, this motivates future work on real update logs, richer corrections, shrinking entity universes, and additional KGE architectures.
+The update streams are generated from static benchmark KGs rather than
+collected from real-world change logs, and substitutions are supplied to
+the method and are limited to object replacements. The entity universe is
+kept fixed, so the experiments do not cover removing entities from the
+candidate set. We evaluate three embedding models and do not establish
+that the method transfers to every KGE architecture. Finally, reducing
+the score of a deleted fact is a behavioral update objective; our
+experiments do not establish a formal machine-unlearning guarantee.
+
 
 ## Citation and References
 
