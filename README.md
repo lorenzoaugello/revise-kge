@@ -15,14 +15,16 @@ Experiments use four established datasets for knowledge graph completion and lin
 - FB15k-237, 
 - WN18RR, 
 -CoDEx-S,
-- CoDEx-M. 
+- CoDEx-M.
+  
 The primary stream contains three update steps, each mixing additions, removals, and substitutions. The streams are constructed synthetically from each dataset's training split. Evaluation uses filtered head and tail ranking over the entity universe present at the relevant step. We compare against different baseline methods, namely: 
 - Stale, 
 - FT-Add (blind), 
 - FT-Snapshot, 
 - Tombstone-neg, 
 - NegGrad+,  
-- Retraining Oracle. 
+- Retraining Oracle.
+  
 We consider the following evaluation metrics, described in Section 6 of the paper. So, we include results for link-prediction quality (MRR and Hits@10) on test, added, removed, cumulatively removed, and retained triples; substitution accuracy; Forgetting Efficacy; Oracle Deviation (OD); and update-time speed-up.
 
 ### Main results reported in the paper
