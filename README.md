@@ -14,7 +14,7 @@ At update step $t$, the graph change is represented as additions $A_t$, deletion
 Experiments use four established datasets for knowledge graph completion and link prediction: 
 - FB15k-237, 
 - WN18RR, 
--CoDEx-S,
+- CoDEx-S,
 - CoDEx-M.
   
 The primary stream contains three update steps, each mixing additions, removals, and substitutions. The streams are constructed synthetically from each dataset's training split. Evaluation uses filtered head and tail ranking over the entity universe present at the relevant step. We compare against different baseline methods, namely: 
