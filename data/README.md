@@ -8,4 +8,4 @@ Here are the references and links to their hugginface repositories:
 
 The evolving snapshots and additions, deletions, and substitutions are generated deterministically at run time from each benchmark's training split and the configured random seed. They are synthetic update streams, not external change logs. This is one limitation of our work that we state in the paper, and for which we outline a direction for future work. Validation triples are split deterministically into calibration and evaluation halves; test triples are reserved for final evaluation.
 
-`results_snapshot/` contains the raw main-experiment and ablation CSV records bundled with this release. These CSVs are provided to make the reported summaries inspectable without rerunning training. They are not required as inputs to the experiment scripts.
+`results_snapshot/` contains the raw main-experiment CSV records bundled with this release. We provide those CSV files for transparency in the review process, and so to make the reported summaries inspectable without rerunning training. However, they are not required as inputs to the experiment scripts, while they serve as sole demonstration.
