@@ -1,0 +1,6 @@
+method,average_rank
+FT-Snapshot,1.8333333333333333
+REVISE,1.8333333333333333
+Tombstone-neg,3.0833333333333335
+FT-Add (blind),3.25
+NegGrad+,5.0
